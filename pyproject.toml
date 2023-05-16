@@ -1,6 +1,6 @@
 [project]
 name = "xpdfpghljk"
-version = "0.3.0"
+version = "0.4.0"
 
 [project.scripts]
 cython_test = "xpdfpghljk.hello:hello_world"
