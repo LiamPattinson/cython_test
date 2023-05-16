@@ -2,6 +2,9 @@
 name = "xpdfpghljk"
 version = "1.0.0"
 
+[project.scripts]
+cython_test = "xpdfpghljk.hello:hello_world"
+
 [build-system]
 build-backend = 'setuptools.build_meta'
 requires = ["setuptools", "cython"]
