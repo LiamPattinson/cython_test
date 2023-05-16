@@ -1,6 +1,6 @@
 [project]
 name = "xpdfpghljk"
-version = "0.1.0"
+version = "0.2.0"
 
 [project.scripts]
 cython_test = "xpdfpghljk.hello:hello_world"
@@ -8,3 +8,7 @@ cython_test = "xpdfpghljk.hello:hello_world"
 [build-system]
 build-backend = 'setuptools.build_meta'
 requires = ["setuptools", "cython"]
+
+[tool.cibuildwheel]
+archs = ["native"]
+build = "cp38-*"
