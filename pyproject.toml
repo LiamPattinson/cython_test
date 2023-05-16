@@ -1,6 +1,6 @@
 [project]
 name = "xpdfpghljk"
-version = "0.2.0"
+version = "0.3.0"
 
 [project.scripts]
 cython_test = "xpdfpghljk.hello:hello_world"
@@ -12,3 +12,6 @@ requires = ["setuptools", "cython"]
 [tool.cibuildwheel]
 archs = ["native"]
 build = "cp38-*"
+
+[tool.setuptools]
+packages = ["xpdfpghljk"]
